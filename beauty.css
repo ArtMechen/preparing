@@ -1,24 +1,43 @@
-head {
-  
+h1 {
+	align: left;
+}
+	
+nav a {
+	padding: 10px 5px;
+	text-decoration: none;
+	border: 3px solid black;
+	border-radius: 20px;
+	background: yellow;
+	color: blue;
 }
 
 nav {
-  
-}
-
-nav a {
-  text-decoration: none;
-}
-
-header {
-  
-}
-
-body {
-  
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background: black;
+	color: white;
 }
 
 footer {
-  
+	background: black;
 }
 
+footer td {
+	color: red;
+}
+
+.button {
+	text-decoration: none;
+	color: red;
+	font-size: 25;
+}
+.krasivoe {
+	border: 1px solid #AAAAAA;
+	border-collapse: collapse;
+}
+
+.krasivoe thead {
+	border-bottom: 2px solid #444444;
+	border-left: 2px solid #D0E4F5;
+}
